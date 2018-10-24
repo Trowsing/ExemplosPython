@@ -48,8 +48,6 @@ def menu():
             print(turnos)
             menu()
         if opUsuario == 2:
-            if senhaP == 99:
-                senhaP = 0
             senhaP += 1
             turnos.append(senhaP)
             turnos.sort()
