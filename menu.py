@@ -1,4 +1,8 @@
-import string
+# This code will count the people on a queue accoridng to its status 
+# and print the number and type of attention whether it is for a disabled
+# or a normal person, admin and user are both accessible from the main menu
+# and they can choose from the options in a submenu.
+
 senhaN = 100
 senhaP = 0
 turnos = []
