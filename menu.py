@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 """
 This program simulates a queue where the clients are
 allowed to get 'normal' and 'disabled' turns.
 Admins can call next turn or restart the counter.
 """
+=======
+# This code will count the people on a queue accoridng to its status 
+# and print the number and type of attention whether it is for a disabled
+# or a normal person, admin and user are both accessible from the main menu
+# and they can choose from the options in a submenu.
+
+>>>>>>> 4fee4474cae89332d005cb20326a6732e8503a35
 senhaN = 100
 senhaP = 0
 turnos = []
@@ -48,8 +56,11 @@ def menu():
             print(turnos)
             menu()
         if opUsuario == 2:
+<<<<<<< HEAD
             if senhaP == 99:
                 senhaP = 0
+=======
+>>>>>>> 4fee4474cae89332d005cb20326a6732e8503a35
             senhaP += 1
             turnos.append(senhaP)
             turnos.sort()
