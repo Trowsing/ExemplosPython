@@ -1,12 +1,12 @@
 # Usando Python 3.6.5 @Jhonathan Ballesteros 03/12/2018
 """
-Given an array of N non-negative colegers with maximum value A, representing height of blocks
+Given an array of N non-negative integers with maximum value A, representing height of blocks
 sequentially arranged, where the width of each block is 1. Compute how much water can be trapped in
 between blocks after raining.
 """
 # largura das colunas, coleiros separados por espaços.
 str = input("Separe a largura das colunas com espaços: ").split(' ')
-# conversão de string para col
+# conversão de string para int
 col = [int(num) for num in str]
 
 # As duas colunas dos extremos definem a profundidade da piscina,
