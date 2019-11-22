@@ -1,5 +1,5 @@
 # Getting email from string
- 
+
 import re
 
 pattern = r"([\w\.-]+)@([\w\.-]+)(\.[\w.]+)"

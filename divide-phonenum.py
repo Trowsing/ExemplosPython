@@ -6,13 +6,13 @@ number = str(input("Wich number do you want to split? "))
 
 number = list(number)
 
-#s = [1, 2, 3, 4, 5, 6, 7, 8]
+# s = [1, 2, 3, 4, 5, 6, 7, 8]
 
-if len(number)%3 != 0:
-    n = len(number)//3+1
+if len(number) % 3 != 0:
+    n = len(number) // 3 + 1
 
-arr = [number[i:i+3] for i in range(0,len(number),3)]
+arr = [number[i : i + 3] for i in range(0, len(number), 3)]
 
-final = '-'.join(str(x) for x in arr)
+final = "-".join(str(x) for x in arr)
 
 print(final)

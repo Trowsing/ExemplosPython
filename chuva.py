@@ -5,7 +5,7 @@ sequentially arranged, where the width of each block is 1. Compute how much wate
 between blocks after raining.
 """
 # largura das colunas, coleiros separados por espaços.
-str = input("Separe a largura das colunas com espaços: ").split(' ')
+str = input("Separe a largura das colunas com espaços: ").split(" ")
 # conversão de string para int
 col = [int(num) for num in str]
 
